@@ -9,7 +9,7 @@ This repository contains code from an ETL pipeline project I did in my bootcamp
 
 ## Requirements
 - The minimum requirement is Python3 
-- Import the necessary libraries 
+- Import the necessary libraries as [here](https://github.com/lflores180/etl-pipeline/blob/main/requirements.txt)
 
 ## Step by step:
 - Create the folders and files we need (the most organized possible)
