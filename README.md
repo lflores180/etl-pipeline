@@ -12,8 +12,21 @@ This repository contains code from an ETL pipeline project I did in my bootcamp
 - Import the necessary libraries as [here](https://github.com/lflores180/etl-pipeline/blob/main/requirements.txt)
 
 ## Step by step:
-- Create the folders and files we need (the most organized possible)
-- Create the .env file for storage the keys and keep them safe. 
-- Fetch the environment variables from the .env file using the getenv function
-- Create the src file and write the code for the functions we need.
-- Write the code on our main.py file
+1. Clone the repository, and change the directory to **etl-pipeline**:
+```
+git clone https://github.com/lflores180/etl-pipeline.git
+```
+
+- Please contact me for a copy of the database if you do not have it, otherwise update the [file path](https://github.com/lflores180/etl-pipeline/blob/e3c3492cfa53b855def6642a72bd906375359849/src/extract.py#L6) accordingly. 
+- Create a .env file with connection passwords in your  **etl-pipeline** folder, similar to [this](https://github.com/lflores180/etl-pipeline/blob/e3c3492cfa53b855def6642a72bd906375359849/env.copy).
+- To execute the code to extract, transform and load data to s3, run the `main.py` file:
+
+Mac users:
+```
+python3 main.py
+```
+
+Window users:
+```
+python main.py
+```
